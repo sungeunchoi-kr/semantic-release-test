@@ -6,7 +6,7 @@ module.exports = {
         [ "@semantic-release/npm",
             {
                 "npmPublish": false,
-                "tarballDir": true
+                "tarballDir": "."
             }
         ],
         "@semantic-release/github"
