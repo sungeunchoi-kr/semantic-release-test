@@ -29,7 +29,6 @@ jobs:
           node-version: '16'
           
       - run: npm ci
-      - run: npm run build --if-present
       - run: npx semantic-release
 
       # Runs a single command using the runners shell

@@ -1,6 +1,6 @@
 {
   "name": "semantic-release-test",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sungeunchoi-kr/semantic-release-test/issues"
   },
-  "homepage": "https://github.com/sungeunchoi-kr/semantic-release-test#readme"
+  "homepage": "https://github.com/sungeunchoi-kr/semantic-release-test#readme",
+  "devDependencies": {
+    "semantic-release": "^18.0.1"
+  }
 }
